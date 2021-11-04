@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repositório](https://github.com/giovanna-mrosa/frontendMentor-singlePriceGrid)
+- Live Site URL: [Page](https://giovanna-mrosa.github.io/frontendMentor-singlePriceGrid/)
 
 ### Built with
 
@@ -24,4 +24,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Giovanna Rosa](https://www.your-site.com)
+- Website - [Giovanna Rosa](https://github.com/giovanna-mrosam)
