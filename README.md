@@ -24,4 +24,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Giovanna Rosa](https://github.com/giovanna-mrosam)
+- GitHub - [Giovanna Rosa](https://github.com/giovanna-mrosam)
