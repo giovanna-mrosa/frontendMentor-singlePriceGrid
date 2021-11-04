@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+  --cyan: #2ab2af;
+  --light-cyan: #4bbebd;
+  --bright-yellow: #c0df34;
+  --light-gray: #e5eff5;
+  --grayish-blue: #98a6bd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--light-gray);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  width: 635px;
+  height: 476px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px 3px #00000023;
+}
+
+.section1 {
+  background: #fff;
+  width: 635px;
+  height: 216px;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 137px;
+  width: 550px;
+}
+
+.first-title {
+  font-family: 'Karla', cursive;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--cyan);
+}
+
+.section1-firstp {
+  font-family: Karla;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  color: var(--bright-yellow);
+}
+
+.section1-secondp {
+  font-family: Karla;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  color: var(--grayish-blue);
+}
+
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container2 {
+  background: var(--cyan);
+  width: 317.5px;
+  height: 260px;
+  border-radius: 0px 0px 0px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+}
+
+.title {
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: #fff;
+}
+
+.container2-firstp {
+  font-family: Karla;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: #ffffffa9;
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: -0.015em;
+  margin-right: 12px;
+  color: #fff;
+}
+
+.container2-secondp {
+  font-family: Karla;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.055em;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.button-signup {
+  background: var(--bright-yellow);
+  width: 238px;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 10px 3px #00000023;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: #fff;
+}
+
+.container3 {
+  background: var(--light-cyan);
+  width: 317.5px;
+  height: 260px;
+  border-radius: 0px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container3-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 238px;
+  height: 170px;
+}
+
+ul {
+  list-style-type: none;
+  font-family: Karla;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+@media (max-width: 375px) {
+  body {
+    height: 100%;
+  }
+  #container {
+    width: 311px;
+    height: 750px;
+  }
+  .section1 {
+    width: 311px;
+    height: 275px;
+  }
+  .section1-content {
+    height: 210px;
+    width: 264px;
+  }
+  .container2 {
+    width: 311px;
+    height: 235px;
+    border-radius: 0px;
+  }
+  .container2-content {
+    height: 170px;
+  }
+  .button-signup {
+    width: 264px;
+    height: 46px;
+  }
+  .container3 {
+    width: 311px;
+    height: 240px;
+    border-radius: 0px 0px 8px 8px;
+  }
+  .container3-content {
+    height: 165px;
+    width: 264px;
+  }
+}
+
+.attribution {
+  font-family: Karla;
+  font-size: 11px;
+  text-align: center;
+  color: #535353;
+  margin-top: 10px;
+}
+
+.attribution a {
+  font-family: Karla;
+  text-decoration: none;
+  color: #535353;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
